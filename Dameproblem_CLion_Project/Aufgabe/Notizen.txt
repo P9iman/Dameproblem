@@ -1,0 +1,5 @@
+Beim Einlesen von Strings durch das Terminal sollte man die Funktion fgets benutzen 
+da man dadurch ein Auftreten eines Bufferoverflows verhindert. 
+fgets liest immer n-2 Zeichen ein, dabei steht n für die Menge der Zeichen und -2
+ein Zeichen für Null-Character und ein \n. 
+

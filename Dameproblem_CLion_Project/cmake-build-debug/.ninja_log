@@ -1,0 +1,17 @@
+# ninja log v5
+0	10	1700592156607677700	build.ninja	2bd9d0093023414a
+0	54	1700588792218974727	CMakeFiles/Dameproblem_CLion_Project.dir/main.c.o	db2c1beb10289fa9
+54	72	1700588792234974989	Dameproblem_CLion_Project	eddcccdf9b964c8e
+1	134	1700585225799665018	CMakeFiles/Dameproblem_CLion_Project.dir/snippits.c.o	2515fb406aa76638
+0	7	1700579866359801797	CMakeFiles/Dameproblem_CLion_Project.dir/Test.c.o	d0014494dcfdee1d
+0	33	1700588674892792621	CMakeFiles/Dameproblem_CLion_Project.dir/board.c.o	596636c4546a5aa6
+1	26	1700604907062047288	CMakeFiles/Dameproblem_CLion_Project.dir/main.c.o	db2c1beb10289fa9
+1	28	1700604907062047288	CMakeFiles/Dameproblem_CLion_Project.dir/checkers.c.o	718385c6ee0a9b07
+1	31	1700604907066047306	CMakeFiles/Dameproblem_CLion_Project.dir/board.c.o	596636c4546a5aa6
+31	48	1700604907082047376	Dameproblem_CLion_Project	45755b73fd985d7d
+0	15	1700605062210737305	CMakeFiles/Dameproblem_CLion_Project.dir/main.c.o	db2c1beb10289fa9
+15	28	1700605062222737359	Dameproblem_CLion_Project	45755b73fd985d7d
+0	15	1700605243760360042	CMakeFiles/Dameproblem_CLion_Project.dir/main.c.o	db2c1beb10289fa9
+15	27	1700605243772360159	Dameproblem_CLion_Project	45755b73fd985d7d
+1	13	1700605429510044750	CMakeFiles/Dameproblem_CLion_Project.dir/checkers.c.o	718385c6ee0a9b07
+13	26	1700605429522044851	Dameproblem_CLion_Project	45755b73fd985d7d
