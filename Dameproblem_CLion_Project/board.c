@@ -10,19 +10,8 @@ BOARD* erstelleSchachbrett(int groesse)
     int zeilen = groesse;
     int spalten = groesse;
     char** schachbrett = NULL;
-    /**
-     * Dynamische Speicherreservierung:
-     * malloc reserviert Zeilen * Pointer Größe also auf diesem Rechner 8Byte
-     * Wenn es 3 Zeilen geben soll, dann werden 3*8=24 Byte benötigt.
-     * Das heißt man bekommt nach dem malloc einen Pointer der nur auf die Zeilen zeigt.
-     * Hinter den Zeilen kommen nun noch die Spalten.
-     *
-     * Wir reservieren Speicher für N (Anzahl an Zeilen) Pointer auf Integer
-     * @image Aufgabe/PointAufPointer.png
-     */
+   
     schachbrett = malloc(zeilen * sizeof(char*));
-    //Jetzt gehen wir durch jede Zeile und reservieren genügen Speicher
-    // für die einzelnen Spalten.
     for(int i = 0; i < zeilen; i++){
         /**
          * Malloc gibt uns einen Pointer auf den Anfang eines Speicherblock
@@ -57,6 +46,7 @@ BOARD* erstelleSchachbrettDefaultGroesse()
     }
     //Free als nächstes den Pointer auf Pointer
     free(_schachbrett);
+    free(schachbrett);
     printf("Schachbrette wurde erfolgreich gelöscht.\n");
  }
 
